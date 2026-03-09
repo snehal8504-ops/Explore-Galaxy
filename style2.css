@@ -1,0 +1,36 @@
+.stars-info{
+    padding:80px 10%;
+    background:#0b0c2a;
+    color:white;
+    text-align:center;
+}
+
+.stars-info h2{
+    font-size:40px;
+    margin-bottom:50px;
+}
+
+.star-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.star-card{
+    background:#111344;
+    padding:25px;
+    width:30%;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.star-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #00ffff;
+}
+
+.star-card h3{
+    margin-bottom:15px;
+    color:#00ffff;
+}

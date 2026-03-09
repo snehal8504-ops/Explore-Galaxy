@@ -1,0 +1,20 @@
+.hero h1{
+    font-size:60px;
+    text-shadow: 0 0 20px #00ffff;
+    margin-bottom:20px;
+color:black;
+}
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+    color:#cccccc;
+}
+body{
+    height:100vh;
+    background: url("G1st(background).jpg") no-repeat center center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
